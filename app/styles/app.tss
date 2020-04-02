@@ -1,0 +1,3 @@
+'Window': {
+	backgroundColor: '#fff' // white background instead of default transparent or black
+}

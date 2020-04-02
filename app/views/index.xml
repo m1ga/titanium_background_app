@@ -1,0 +1,5 @@
+<Alloy>
+	<Window onOpen="onOpen">
+		<Button id="btn" title="start" onClick="onClickBtn"/>
+	</Window>
+</Alloy>
