@@ -1,5 +1,6 @@
 <Alloy>
-	<Window onOpen="onOpen">
-		<Button id="btn" title="start" onClick="onClickBtn"/>
+	<Window onOpen="onOpen" onClose="onClose">
+		<Button id="btn_start" title="start fg service" onClick="onClickStart"/>
+		<Button id="btn_stop" title="stop fg service" onClick="onClickStop"/>
 	</Window>
 </Alloy>
