@@ -5,7 +5,6 @@ var channel = null;
 
 setInterval(function() {
 	console.log(TAG, new Date(), "----function from background service----");
-
 }, 10000)
 
 

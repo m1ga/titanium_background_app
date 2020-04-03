@@ -1,5 +1,6 @@
 var service = null;
 var intent = null;
+
 var TAG = "backgroundApp";
 
 function onClickStart(e) {
@@ -15,6 +16,7 @@ function onClickStart(e) {
 function onClickStop(e) {
 	if (service) {
 		service.foregroundCancel();
+		Ti.Android.stopService(intent);
 		console.log(TAG, "will stop in some seconds...");
 	}
 }
