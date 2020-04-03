@@ -3,7 +3,10 @@ console.log("Start background service");
 var TAG = "backgroundApp";
 var channel = null;
 
-console.log(TAG, new Date(), "----function from background service----");
+setInterval(function() {
+	console.log(TAG, new Date(), "----function from background service----");
+
+}, 10000)
 
 
 if (Ti.Platform.Android.API_LEVEL >= 26) {

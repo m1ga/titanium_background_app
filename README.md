@@ -3,7 +3,7 @@ The goal is to make a Titanium app that keeps running in the background and be a
 
 ### Working platforms
 
-* [ ] Android | Current progress: foregroundNotificaion is shown all the time
+* [ ] Android | Current progress: foregroundNotificaion is shown all the time (even if force-quite the app); code only execute in foreground and background (running for over 3 hours)
 * [ ] iOS | Current progress: not started yet
 
 ### Ideas/Todos

@@ -1,3 +1,4 @@
 "Window" : {
-	layout: "vertical"
+	layout: "vertical",
+	exitOnClose: false
 }
