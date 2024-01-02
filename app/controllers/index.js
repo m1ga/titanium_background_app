@@ -7,7 +7,7 @@ function onClickStart(e) {
 	intent = Ti.Android.createServiceIntent({
 		url: 'backgroundService.js'
 	});
-	// intent.putExtra("interval", 10000); // will stop the fg service after 10 sec
+	intent.putExtra("interval", 10000);
 
 	service = Ti.Android.createService(intent);
 	service.start();
